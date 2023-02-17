@@ -10,5 +10,5 @@ with open("Input.txt", "r") as file:
             Calories = 0
 
 ElfCalories = sorted(ElfCalories)
-print("Part 1:", ElfCalories[-1])
-print("Part 2:", ElfCalories[-1]+ElfCalories[-2]+ElfCalories[-3])
+print(f"Part 1: {ElfCalories[-1]}")
+print(f"Part 2: {ElfCalories[-1]+ElfCalories[-2]+ElfCalories[-3]}")
