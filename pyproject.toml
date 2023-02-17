@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "AdventOfCode2022"
+version = "2022"
+description = "https://adventofcode.com/"
+authors = ["ShyAssassin <49711232+ShyAssassin@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+anytree = "^2.8.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 135
+exclude = "(.git|.env|venv)"
+target-version = ["py310"]
